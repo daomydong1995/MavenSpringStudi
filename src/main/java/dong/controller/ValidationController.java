@@ -15,16 +15,16 @@ import javax.validation.Valid;
 public class ValidationController {
     @RequestMapping(value = "/add-user" ,method = RequestMethod.GET)
     public  String addUser(HttpServletRequest request ){
-        request.setAttribute("us",new User());
+        request.setAttribute("user",new User());
         return "validate/addUsers";
     }
     @RequestMapping(value = "/add-user" ,method = RequestMethod.POST)
-    public  String addUser(HttpServletRequest request , @ModelAttribute("user") @Valid User user , BindingResult result){
+    public  String addUser(HttpServletRequest request ,@Valid @ModelAttribute("user") User user , BindingResult result){
         if (result.hasErrors()){
-            request.setAttribute("us",new User());
+            request.setAttribute("user",user);
             return "validate/addUsers";
         }
-        request.setAttribute("us",user);
+        request.setAttribute("user",user);
         return "validate/viewUser";
     }
 }

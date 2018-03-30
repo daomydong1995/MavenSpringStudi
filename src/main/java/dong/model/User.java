@@ -1,30 +1,24 @@
 package dong.model;
 
+
 import org.hibernate.validator.constraints.Length;
 import org.springframework.format.annotation.NumberFormat;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 public class User {
-    @NotEmpty
+    @NotNull
     private String userName;
     @Length(min = 6,max = 12)
     private String passWord;
     @Email
     private String address;
-    @NumberFormat
+    @NumberFormat(style = NumberFormat.Style.PERCENT)
     private String phone;
     private int age;
     public User(){
-
-    }
-    public User(String userName, String passWord, String address, String phone, int age) {
-        this.userName = userName;
-        this.passWord = passWord;
-        this.address = address;
-        this.phone = phone;
-        this.age = age;
     }
 
     public String getUserName() {

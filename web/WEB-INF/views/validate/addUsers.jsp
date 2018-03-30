@@ -7,18 +7,18 @@
 </head>
 <body>
 <h2>Form tạo User</h2>
-<%--@elvariable id="person" type="dong.model.User"--%>
-<form:form method="post" modelAttribute="person" action="${addUser}">
+<%--@elvariable id="user" type="dong.model.User"--%>
+<form:form method="post" modelAttribute="user" action="${addUser}">
     <form:input path="userName"/>
-    <form:errors path="userName"/>
+    <p style="color: red"><form:errors path="userName"/></p>
     <form:input path="passWord"/>
-    <form:errors path="passWord"/>
+    <p style="color: red"><form:errors path="passWord"/></p>
     <form:input path="address"/>
-    <form:errors path="address"/>
+    <p style="color: red"><form:errors path="address"/></p>
     <form:input path="phone"/>
-    <form:errors path="phone"/>
-    <form:input path="age"/>
-    <form:errors path="age"/>
+    <p style="color: red"><form:errors path="phone"/></p>
+    <form:input path="age"/><p style="color: red">
+    <p style="color: red"><form:errors path="age"/></p>
     <button type="submit">Submit</button>
 </form:form>
 </body>

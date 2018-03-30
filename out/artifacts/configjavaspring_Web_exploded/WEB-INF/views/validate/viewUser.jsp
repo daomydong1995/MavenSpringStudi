@@ -7,8 +7,12 @@
     <link href=""/>
 </head>
 <body>
-<h2>View Person</h2>
-    <p>Tên : ${person.name}</p>
-    <p>Tên : ${person.age}</p>
+<%--@elvariable id="user" type="dong.model.User"--%>
+<h2>View User</h2>
+<p>Tên : ${user.userName}</p>
+<p>Tên : ${user.passWord}</p>
+<p>Tên : ${user.address}</p>
+<p>Tên : ${user.phone}</p>
+<p>Tên : ${user.age}</p>
 </body>
 </html>
