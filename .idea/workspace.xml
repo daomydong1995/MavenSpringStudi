@@ -6,23 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913484a6-218d-46a8-bebe-0593266cedf1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/dong/controller/ValidationController.class" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/dong/controller/ValidationController.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/dong/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/dong/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/messages.properties" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/classes/messages.properties" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/views/validate/addUsers.jsp" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/views/validate/addUsers.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/views/validate/viewUser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/configjavaspring_Web_exploded/WEB-INF/views/validate/viewUser.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dong/controller/ValidationController.java" afterPath="$PROJECT_DIR$/src/main/java/dong/controller/ValidationController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dong/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/dong/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dong/controller/ValidationController.class" afterPath="$PROJECT_DIR$/target/classes/dong/controller/ValidationController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dong/model/User.class" afterPath="$PROJECT_DIR$/target/classes/dong/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" afterPath="$PROJECT_DIR$/target/classes/messages.properties" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/validate/addUsers.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/validate/addUsers.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/validate/viewUser.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/validate/viewUser.jsp" />
-    </list>
+    <list default="true" id="913484a6-218d-46a8-bebe-0593266cedf1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +21,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dong/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="845">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
@@ -119,7 +103,7 @@
       <file leaf-file-name="ValidationController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dong/controller/ValidationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="195">
               <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,7 +115,7 @@
       <file leaf-file-name="HelloWorldConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dong/configjava/spring/HelloWorldConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="555">
               <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -212,9 +196,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="173" />
-    <option name="y" value="94" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1847" />
     <option name="height" value="1057" />
   </component>
@@ -233,30 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,7 +321,30 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="configjavaspring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="configjavaspring" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,11 +566,12 @@
       <workItem from="1522385422587" duration="690000" />
       <workItem from="1522386755785" duration="5247000" />
       <workItem from="1522394424766" duration="5000" />
+      <workItem from="1522394972724" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43614000" />
+    <option name="totallyTimeSpent" value="44252000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -982,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,13 +973,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dong/configjava/spring/HelloWorldConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="555">
           <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1042,7 +1024,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dong/controller/ValidationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="195">
           <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1052,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dong/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="845">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
