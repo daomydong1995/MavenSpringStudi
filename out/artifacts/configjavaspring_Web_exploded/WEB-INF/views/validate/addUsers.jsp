@@ -9,10 +9,10 @@
 <h2>Form tạo User</h2>
 <%--@elvariable id="user" type="dong.model.User"--%>
 <form:form method="post" modelAttribute="user" action="${addUser}">
-    <form:input path="userName"/>
-    <p style="color: red"><form:errors path="userName"/></p>
-    <form:input path="passWord"/>
-    <p style="color: red"><form:errors path="passWord"/></p>
+    <form:input path="username"/>
+    <p style="color: red"><form:errors path="username"/></p>
+    <form:input path="password"/>
+    <p style="color: red"><form:errors path="password"/></p>
     <form:input path="address"/>
     <p style="color: red"><form:errors path="address"/></p>
     <form:input path="phone"/>

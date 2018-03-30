@@ -9,8 +9,8 @@
 <body>
 <%--@elvariable id="user" type="dong.model.User"--%>
 <h2>View User</h2>
-<p>Tên : ${user.userName}</p>
-<p>Tên : ${user.passWord}</p>
+<p>Tên : ${user.username}</p>
+<p>Tên : ${user.password}</p>
 <p>Tên : ${user.address}</p>
 <p>Tên : ${user.phone}</p>
 <p>Tên : ${user.age}</p>

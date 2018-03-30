@@ -2,6 +2,7 @@ package dong.configjava.spring;
 
 import dong.model.Order;
 import dong.model.Person;
+import dong.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.MessageSource;
@@ -54,6 +55,10 @@ public class HelloWorldConfiguration extends WebMvcConfigurerAdapter{
         source.setBasename("classpath:messages");
         source.setDefaultEncoding("utf-8");
         return source;
+    }
+    @Bean
+    public UserValidator userValidator(){
+        return new UserValidator();
     }
 }
 

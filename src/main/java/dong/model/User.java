@@ -6,35 +6,36 @@ import org.springframework.format.annotation.NumberFormat;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
+
 
 public class User {
-    @NotNull
-    private String userName;
-    @Length(min = 6,max = 12)
-    private String passWord;
-    @Email
+//    @NotEmpty
+    private String username;
+//    @Length(min = 6,max = 12)
+    private String password;
+//    @Email
     private String address;
-    @NumberFormat(style = NumberFormat.Style.PERCENT)
+//    @NumberFormat(style = NumberFormat.Style.PERCENT)
     private String phone;
     private int age;
+
     public User(){
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getPassWord() {
-        return passWord;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPassWord(String passWord) {
-        this.passWord = passWord;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getAddress() {
